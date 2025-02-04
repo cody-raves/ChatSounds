@@ -1,0 +1,21 @@
+# Default: Sound is enabled
+on load:
+    set {sound.enabled} to true
+
+# Command to toggle the sound
+command /togglesound:
+    trigger:
+        if {sound.enabled} is true:
+            set {sound.enabled} to false
+            send "Sound has been &cdisabled&r  for chat messages!" to player
+            play sound "minecraft:entity.villager.no" to player  # Sound played when disabled
+        else:
+            set {sound.enabled} to true
+            send "Sound has been &aenabled&r  for chat messages!" to player
+            play sound "minecraft:entity.villager.ambient" to player  # Sound played when enabled
+
+# Chat event: Play sound based on the toggle state
+on chat:
+    if {sound.enabled} is true:
+        loop all players:
+            play sound "minecraft:entity.villager.trade" to loop-player

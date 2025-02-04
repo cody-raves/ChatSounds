@@ -5,7 +5,6 @@ ChatSounds is a **lightweight Minecraft Skript** that **plays a sound whenever a
 ## 🔹 Features  
 ✔ **Plays a sound when players chat**  
 ✔ **Toggle chat sounds ON/OFF with `/togglesound`**  
-✔ **Optimized for performance & minimal lag**  
 ✔ **Works on Minecraft `1.21.3+` (Should support future versions)**  
 
 ## 🔧 Commands  
@@ -24,15 +23,3 @@ ChatSounds is a **lightweight Minecraft Skript** that **plays a sound whenever a
 💬 **Never miss a chat message again!** This Skript **helps alert players** with a sound whenever a message is sent, making it **great for busy SMPs, survival servers, and roleplay communities**.  
 
 🚀 **Lightweight, simple, and effective!** 🔥  
-
----
-
-### 📜 License  
-This Skript is released under the **MIT License** – feel free to modify & share it!  
-
-🔗 **GitHub Repo:** `[Insert GitHub Repo URL Here]`  
-
----
-
-### 💡 Want New Features?  
-Feel free to open an **issue or pull request** if you have ideas! 🚀  
